@@ -68,8 +68,6 @@ public class NeuronFlyBehavior : MonoBehaviour
    
    public bool alive = true;
    
-   [SerializeField] private float _heightRange = 0.45f;
-   
    public float fitness { get; set; }
    
    public void SetBrain(NeuralNetwork brain)
